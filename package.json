@@ -1,0 +1,28 @@
+{
+  "name": "isola-link",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./cli.js",
+  "scripts": {
+    "test": "jest ./testes/teste.test.js",
+    "cli": "node cli.js ./arquivos/texto1.md"
+  },
+  "preferGlobal": true,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "node-fetch": "^3.2.10"
+  },
+  "devDependencies": {
+    "jest": "^29.0.2"
+  },
+  "bin": {
+    "isolaLink": "./cli.js"
+  },
+  "bugs": {
+    "email" : "leoo.caldas@hotmail.com"
+  }
+  
+}
